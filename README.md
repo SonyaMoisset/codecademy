@@ -1,2 +1,2 @@
-# codecademy
-Codecademy Projects
+# Codecademy
+Codecademy | Make a Website Projects

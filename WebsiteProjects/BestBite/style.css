@@ -1,0 +1,166 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  text-align: center;
+  padding-top: 40px;
+}
+/* Header */
+
+.header {
+  padding: 40px;
+}
+
+.header h1 {
+  margin: 0;
+  padding: 8px 0 0 0;
+}
+
+.nav {
+  float: right;
+  width: 340px;
+}
+
+.nav-pills li a {
+  color: #d8192f;
+  border: 1px solid #d8192f;
+  margin-left: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover,
+.nav-pills li a:hover,
+.section .btn:hover {
+  background-color: rgba(216, 25, 47, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  color: #fff;
+}
+/* Jumbotron */
+
+.jumbotron {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+
+.jumbotron h2:first-child {
+  margin: 120px 0 0;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  font-size: 60px;
+  text-align: right;
+  margin: 0;
+  width: 100%
+}
+/* Banner */
+
+.banner,
+.supporting {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.banner h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.section h3 {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #36343f;
+  height: 180px;
+  color: #fff;
+}
+
+.section .btn {
+  background-color: rgba(216, 25, 47, .5);
+  border: 0px;
+  margin-top: 24px;
+  color: #fff;
+}
+/* Section */
+
+.section h4 {
+  color: #d8192f;
+  margin: 30px 0 20px;
+  padding: 0;
+  font-size: 20px;
+}
+
+.section ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0;
+}
+/* Footer */
+
+.footer {
+  height: 100px;
+  padding: 40px 0 100px;
+  margin-top: 80px;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.footer p {
+  float: left;
+  width: 33%;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+.a-center {
+  text-align: center;
+}
+
+.footer a {
+  color: #d8192f;
+}
+
+.a-right {
+  text-align: right;
+}
+/* Media Queries */
+
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+  .nav-pills li:first-child a {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,172 @@
+html,
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+/* Main */
+
+.main {
+  text-align: center;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.main h1 {
+  color: #fff;
+  margin: 0;
+  padding: 120px 0 0 0;
+  font-size: 150px;
+}
+
+.main p {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 20px 0;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.main .btn:hover {
+  background: rgb(255, 168, 0);
+  cursor: pointer;
+}
+/* Supporting */
+
+.supporting {
+  text-align: center;
+  padding: 50px 0 80px;
+  background-color: #1c1c1c;
+}
+
+.supporting .col {
+  float: left;
+  width: 28%;
+  padding: 10px;
+}
+
+.supporting h2 {
+  color: #ffa800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.supporting .btn:hover {
+  background: rgb(255, 168, 0);
+  cursor: pointer;
+}
+/* Feature */
+
+.feature {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding: 270px 0 0;
+}
+/* Footer */
+
+.footer {
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding: 250px 0 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: 0 0 20px 0;
+  font-size: 18px;
+}
+
+.footer .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 18px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer .btn:hover {
+  background: rgb(255, 168, 0);
+  cursor: pointer;
+}
+
+@media (min-width:600px) {
+  .main h1 {
+    font-size: 200px;
+  }
+  .supporting .col {
+    width: 30%;
+  }
+  .supporting h2 {
+    font-size: 40px;
+  }
+  .supporting p {
+    font-size: 14px;
+  }
+  .feature h2 {
+    font-size: 60px;
+  }
+}

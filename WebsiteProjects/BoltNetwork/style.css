@@ -1,0 +1,135 @@
+html,
+body {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+/* Jumbotron */
+
+.jumbotron {
+  background-color: #000;
+  height: 600px;
+  margin-bottom: 0;
+}
+
+.header {
+  color: #fff;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.header li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.jumbotron .btn {
+  color: #0393ff;
+  background: transparent;
+  border: 1px solid #0393ff;
+  border-radius: 2px;
+  padding: 8px 20px;
+}
+
+.main {
+  text-align: center;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: 300;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 80px;
+}
+
+#search {
+  background: transparent;
+  border: 0px;
+  border-radius: 0;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  margin: 0 20px;
+  width: 400px;
+}
+/* Supporting */
+
+.supporting {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png");
+  background-size: 141px 142px;
+  padding-bottom: 80px;
+}
+
+.supporting h2 {
+  text-align: center;
+  color: #0393ff;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.supporting p {
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.supporting .thumbnail {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+/* Feature */
+
+.feature {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg") no-repeat center center;
+  background-size: cover;
+  height: 380px;
+  padding: 100px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.feature h1 {
+  color: #0393ff;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.feature p {
+  font-size: 18px;
+}
+/* Footer */
+
+.footer {
+  background: #000;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer ul {
+  color: #0393ff;
+  list-style: none;
+  padding-left: 0px;
+}
