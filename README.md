@@ -1,3 +1,3 @@
 # Codecademy
-Codecademy | HTML + CSS Projects
-Codecademy | jQuery Projects
+1. HTML + CSS Projects <br />
+2. jQuery Projects
