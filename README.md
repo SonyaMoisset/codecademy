@@ -1,2 +1,3 @@
 # Codecademy
-Codecademy | Make a Website Projects
+Codecademy | HTML + CSS Projects
+Codecademy | jQuery Projects
