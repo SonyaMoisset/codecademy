@@ -1,0 +1,162 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+}
+/* Header */
+
+.header {
+  background-color: #1c1c1c;
+  font-family: 'Oswald', sans-serif;
+}
+
+.header h1 {
+  color: #ffa800;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.header h1 span {
+  color: #fff;
+  padding-left: 3px;
+}
+
+.header .login {
+  position: relative;
+}
+
+.header .login p {
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header .col-md-3,
+.header .pull-right {
+  width: 50%;
+  float: left;
+}
+
+.header .dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  left: auto;
+  width: 290px;
+  border-radius: 0;
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.header .dropdown-menu h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+}
+
+.header .dropdown-menu button {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+/* Main */
+
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/2/move-gear/bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+#accordion {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.ui-accordion-header {
+  background-color: #1c1c1c;
+  border-top: 1px solid #ddd;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  outline: 0;
+  padding: 8px 20px;
+  text-transform: uppercase;
+}
+
+.ui-accordion-content {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.ui-accordion-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ui-accordion-content li {
+  padding: 1px 0;
+}
+/* Supporting */
+
+.supporting {
+  background-color: #1c1c1c;
+}
+
+.supporting h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 40px;
+  color: #fff;
+}
+
+.supporting p {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 8px 0 40px 0;
+  color: #fff;
+}
+
+.feature {
+  background: url('https://s3.amazonaws.com/codecademy-content/projects/2/move-gear/01.jpg') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+/* Footer */
+
+.footer {
+  background-color: #1c1c1c;
+  font-family: 'Oswald', sans-serif;
+  padding: 40px 0 20px 0;
+  color: #fff;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.footer li {
+  text-transform: uppercase;
+}
+
+.footer p {
+  color: #999;
+  font-size: 11px;
+}
